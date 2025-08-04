@@ -5,18 +5,19 @@ public class Main {
         int entrance = 1000;
         int minValue = 400;
         int accrualValue = 100;
-        int Answer = (entrance - minValue) / accrualValue * bonus;
-        int Answer2 = clientMoney + entrance + Answer;
-        int Answer3 = clientMoney + entrance;
+        int answer = (entrance - minValue) / accrualValue * bonus;
+        int answer2 = clientMoney + entrance + answer;
+        int answer3 = clientMoney + entrance;
         if (entrance > minValue) {
-            System.out.println(Answer + " Бонусов");
-            System.out.println(Answer2 + " - Счет");
+            System.out.println(answer + " Бонусов");
+            System.out.println(answer2 + " - Счет");
             }
 
 
             }
 
         }
+
 
 
 
